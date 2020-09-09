@@ -18,15 +18,7 @@ vector<string> solution(vector<string> strings, int n) {
     vector<pair<char, string>> temp;
     for (int i = 0; i < strings.size(); i++) {
         temp.push_back({ strings[i].at(n), strings[i] });
-        count[strings[i].at(n)]++;
     }
-    for (auto& i : count)
-        if (i.second >= 2) {//인덱스 n에서 문자가 같은 문자열 여럿인 경우
-            isOverlap = true;
-            cout<<temp[i.first].second;
-            //return answer;
-        }
-    if(isOverlap)
     sort(temp.begin(), temp.end(), comp);
     for (auto& i : temp)
         answer.push_back(i.second);
