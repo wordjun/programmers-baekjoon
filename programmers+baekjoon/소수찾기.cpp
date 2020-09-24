@@ -1,5 +1,6 @@
 #include <string>
 #include <vector>
+#include<iostream>
 
 using namespace std;
 int arr[1000001];
@@ -16,7 +17,7 @@ int solution(int n) {
         if (arr[i] == 0)//이미 지워진 수는 건너뛰고,
             continue;
         else {//지워지지 않은 수는 그 배수부터 시작해 가능한 모든 숫자 지우기
-            for (int j = 2; j <= n; j += i) {
+            for (int j = i * i; j <= n; j += i) {
                 arr[j] = 0;
             }
         }
@@ -26,4 +27,9 @@ int solution(int n) {
             answer++;
     }
     return answer;
+}
+
+int main() {
+    cout << solution(10);
+    return 0;
 }
