@@ -96,5 +96,8 @@
     <ClCompile Include="2 x n 타일링.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="모의고사(re).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
