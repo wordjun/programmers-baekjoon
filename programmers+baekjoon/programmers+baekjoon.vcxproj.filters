@@ -117,5 +117,14 @@
     <ClCompile Include="체육복(re).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="가장 큰 수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="큰 수 만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="N으로 표현.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
