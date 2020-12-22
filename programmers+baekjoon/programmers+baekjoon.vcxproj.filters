@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\코테">
+      <UniqueIdentifier>{b0a9f8cc-060b-4145-8657-5a492a32d13b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="크레인 인형뽑기 게임.cpp">
@@ -125,6 +128,27 @@
     </ClCompile>
     <ClCompile Include="N으로 표현.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1번.cpp">
+      <Filter>소스 파일\코테</Filter>
+    </ClCompile>
+    <ClCompile Include="1차1번.cpp">
+      <Filter>소스 파일\코테</Filter>
+    </ClCompile>
+    <ClCompile Include="1차2번.cpp">
+      <Filter>소스 파일\코테</Filter>
+    </ClCompile>
+    <ClCompile Include="1차4번.cpp">
+      <Filter>소스 파일\코테</Filter>
+    </ClCompile>
+    <ClCompile Include="1차5번.cpp">
+      <Filter>소스 파일\코테</Filter>
+    </ClCompile>
+    <ClCompile Include="1차6번.cpp">
+      <Filter>소스 파일\코테</Filter>
+    </ClCompile>
+    <ClCompile Include="1차3번.cpp">
+      <Filter>소스 파일\코테</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
