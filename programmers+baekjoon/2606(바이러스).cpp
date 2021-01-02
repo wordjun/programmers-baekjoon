@@ -30,10 +30,20 @@ int main() {
 	}
 
 	int nx = 0, ny = 0;
-
-	s.push()
+	int current = 0;
+	s.push(1);
+	visited[1] = true;
 	//stack활용
 	while (!s.empty()) {
+		current = s.top();
+		s.pop();
+		for (int i = 1; i <= N; i++) {
+			if (connected[current][i] && !visited[i]) {
+				s.push(i);
+				visited[i] = true;
+				computers++;
+			}
+		}
 	}
 
 	//DFS(1);//1부터 시작해서 1을통해 연결되어 감염된 컴퓨터 수 확인
