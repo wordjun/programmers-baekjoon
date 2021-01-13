@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\Solved">
       <UniqueIdentifier>{e10b09d9-5546-4296-91d0-c9caa865973c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\IUPC">
+      <UniqueIdentifier>{9b2833dc-f481-4bca-97b5-0581ca260a7f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="크레인 인형뽑기 게임.cpp">
@@ -215,6 +218,39 @@
     </ClCompile>
     <ClCompile Include="7576(토마토).cpp">
       <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="9095(1,2,3더하기).cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="11399(ATM).cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="11723(집합).cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="11724(연결요소).cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="11726(2xn타일링).cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="1753(최단경로).cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="dijkstra_pq.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="1149(RGB거리).cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="소스3.cpp">
+      <Filter>소스 파일\IUPC</Filter>
+    </ClCompile>
+    <ClCompile Include="앨범정리.cpp">
+      <Filter>소스 파일\IUPC</Filter>
+    </ClCompile>
+    <ClCompile Include="인덕이의 고민.cpp">
+      <Filter>소스 파일\IUPC</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
