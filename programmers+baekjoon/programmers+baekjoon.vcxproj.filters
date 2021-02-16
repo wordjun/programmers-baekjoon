@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\IUPC">
       <UniqueIdentifier>{9b2833dc-f481-4bca-97b5-0581ca260a7f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\programmers">
+      <UniqueIdentifier>{cde6b3e4-235d-403c-bf77-c6db8477cc35}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="크레인 인형뽑기 게임.cpp">
@@ -251,6 +254,24 @@
     </ClCompile>
     <ClCompile Include="인덕이의 고민.cpp">
       <Filter>소스 파일\IUPC</Filter>
+    </ClCompile>
+    <ClCompile Include="temp.cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="1931(회의실배정).cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="1620(나는야 포켓몬 마스터 이다솜).cpp">
+      <Filter>소스 파일\Solved</Filter>
+    </ClCompile>
+    <ClCompile Include="programmers\124 나라의 숫자.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="programmers\소수찾기.cpp">
+      <Filter>소스 파일\programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="programmers\카펫.cpp">
+      <Filter>소스 파일\programmers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
